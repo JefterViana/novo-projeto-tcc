@@ -1,0 +1,18 @@
+[
+    {
+      "nome" : "" ,
+      "valor" : ""
+    },
+    {
+      "nome" : " Porção " ,
+      "valor" : " porcao "
+    },
+    {
+      "nome" : " Qtd. pessoas " ,
+      "valor" : " qtd_pessoas "
+    },
+    {
+      "nome" : " Preço " ,
+      "valor" : " preco "
+    }
+  ]

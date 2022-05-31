@@ -15,7 +15,7 @@
     {
       "title": "Tapioca com Frango",
       "description": "Massa de tapioca recheada com frango desfiado.",
-      "photo": "/assets/pratos/macarrao_da_casa.png",
+      "photo": "/assets/pratos/tapiocaFrango-queijo-bb.png",
       "size": 400,
       "serving": 2,
       "price": 8.0,
@@ -28,7 +28,7 @@
     {
       "title": "Tapioca com Queijo",
       "description": "Massa de tapioca recheada com queijo.",
-      "photo": "/assets/pratos/macarrao_com_chilli.png",
+      "photo": "/assets/pratos/queijo-branco.png",
       "size": 350,
       "serving": 1,
       "price": 6.0,
@@ -41,7 +41,7 @@
     {
       "title": "Cuscuz de Milho com Carne",
       "description": "Cuscuz de milho acompanhado com carne de sol desfiada",
-      "photo": "/assets/pratos/salada_da_casa.png",
+      "photo": "/assets/pratos/cuscuz__carne.jpg",
       "size": 450,
       "serving": 1,
       "price": 12.0,
@@ -54,7 +54,7 @@
     {
       "title": "Cuscuz de Milho com Ovo",
       "description": "Cuscuz de milho acompanhado com ovo",
-      "photo": "/assets/pratos/bife_com_batatas.png",
+      "photo": "/assets/pratos/cuscuz__ovo.jpg",
       "size": 550,
       "serving": 2,
       "price": 5.0,
@@ -67,7 +67,7 @@
     {
       "title": "Torta de Frango",
       "description": "Delicisa torta de frango.",
-      "photo": "/assets/pratos/picanha_picada.png",
+      "photo": "/assets/pratos/torta__frango.png",
       "size": 850,
       "serving": 3,
       "price": 8.0,
@@ -80,7 +80,7 @@
     {
       "title": "Pão de Queijo",
       "description": "Delicioso pão de queijo.",
-      "photo": "/assets/pratos/lasagna_vegana.png",
+      "photo": "/assets/pratos/pao__de__queijo.jpg",
       "size": 350,
       "serving": 1,
       "price": 3.0,

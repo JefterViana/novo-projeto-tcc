@@ -12,8 +12,20 @@ $veganos: #80aa40;
   margin-top: 20px;
   margin-right: 50px;
   border-radius: 10px;
-  width: 480px;
+  min-width: 680px;
   background-color: #EFB41C;
+  @media (max-width: $mobile) {
+    min-width: 400px;
+  }
+  @media (min-width: $mobile) and (max-width: $desktop_xsm) {
+    min-width: 600px;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    min-width: 680px;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    min-width: 680px;
+  }
 
   &__item {
     display: flex;

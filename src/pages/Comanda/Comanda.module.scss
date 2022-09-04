@@ -3,7 +3,10 @@
 
 .cardapio {
   padding: 0px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
+  @media (max-width: $mobile) {
+    padding: 0px $padding-pequeno;
+  }
+  @media (min-width: $mobile) and (max-width: $desktop_xsm) {
     padding: 0px $padding-horizontal-mobile;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {

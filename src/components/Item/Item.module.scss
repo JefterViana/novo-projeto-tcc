@@ -13,10 +13,10 @@ $veganos: #80aa40;
   background-color: #EFB41C;
   border-radius: 10px;
   &__imagem {
-    min-width: 240px;
+    min-width: 290px;
     margin: 2%;
     margin-left: 2%;
-    @media (max-width: $desktop_xsm) {
+    @media (max-width: $mobile) {
       width: 100%;
     }
     img {

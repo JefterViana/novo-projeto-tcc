@@ -28,14 +28,17 @@
 
 .cardapio {
   padding: 20px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
-    padding: 20px $padding-horizontal-mobile;
+  @media (max-width: $mobile) {
+    padding: 0px $padding-pequeno;
+  }
+  @media (min-width: $mobile) and (max-width: $desktop_xsm) {
+    padding: 0px $padding-horizontal-mobile;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 20px $padding-horizontal-sm;
+    padding:0px $padding-horizontal-sm;
   }
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 20px $padding-horizontal-md;
+    padding: 0px $padding-horizontal-md;
   }
   &__titulo {
     color: $dark;

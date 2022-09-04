@@ -2,15 +2,15 @@
 @import "styles/breakpoints";
 
 .cardapio {
-  padding: 50px $padding-horizontal;
+  padding: 0px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 50px $padding-horizontal-mobile;
+    padding: 0px $padding-horizontal-mobile;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 50px $padding-horizontal-sm;
+    padding: 0px $padding-horizontal-sm;
   }
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 50px $padding-horizontal-md;
+    padding: 0px $padding-horizontal-md;
   }
 
   display: flex;

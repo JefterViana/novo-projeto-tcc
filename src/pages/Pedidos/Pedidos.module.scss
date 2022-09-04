@@ -2,7 +2,7 @@
 @import "styles/breakpoints";
 
 .cardapio {
-  padding: 50px $padding-horizontal;
+  padding: 0px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
     padding: 0px $padding-horizontal-mobile;
   }

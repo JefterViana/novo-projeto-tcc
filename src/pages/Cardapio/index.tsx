@@ -11,17 +11,7 @@ export default function Cardapio() {
     const [ordenador, setOrdenador] = useState("");
     return (
         <main>
-            <header className={styles.header}>
-                <div className={styles.header__text}>
-                    Meu Cantinho Maranhense
-                </div>
-            </header>
             <section className={styles.cardapio}>
-                <h3 className={styles.cardapio__titulo}>Cardápio</h3>
-                <Buscador busca={busca} setBusca={setBusca} />
-                <div className={styles.cardapio__filtros}>
-                    <Filtros filtro={filtro} setFiltro={setFiltro} />
-                </div>
                 <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
             </section>
         </main>

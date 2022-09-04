@@ -10,8 +10,12 @@ $veganos: #80aa40;
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  background-color: #EFB41C;
+  border-radius: 10px;
   &__imagem {
     min-width: 240px;
+    margin: 2%;
+    margin-left: 2%;
     @media (max-width: $desktop_xsm) {
       width: 100%;
     }
@@ -40,7 +44,7 @@ $veganos: #80aa40;
       margin-bottom: 20px;
     }
     p {
-      color: $dark-grey;
+      color: #30201e;
       font-size: 1.3rem;
       font-weight: 600;
       max-width: 600px;

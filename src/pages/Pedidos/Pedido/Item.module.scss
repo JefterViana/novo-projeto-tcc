@@ -12,7 +12,7 @@ $veganos: #80aa40;
   margin-top: 20px;
   margin-right: 50px;
   border-radius: 10px;
-  width: 480px;
+  min-width: 320px;
   background-color: #EFB41C;
 
   &__item {
@@ -54,16 +54,8 @@ $veganos: #80aa40;
       margin: 10px;
     }
   }
-  &__tipo {
-    align-items: center;
-    border-radius: 2px;
-    display: flex;
-    font-size: 1.7rem;
-    font-weight: bold;
-    height: 40px;
-    justify-content: center;
-    padding: 10px 30px;
-    
+  &__section {
+    min-width: 320px;
   }
   &__porcao,
   &__numeroPedido,

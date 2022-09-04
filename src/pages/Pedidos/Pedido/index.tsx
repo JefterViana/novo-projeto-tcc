@@ -4,7 +4,7 @@ import styles from "./Item.module.scss";
 
 export default function Item_comanda(){
     return(
-        <div>
+        <section>
             <div className={styles.pedido}>
                 <div className={styles.pedido__numeroPedido}>
                     Pedido N° 1
@@ -46,6 +46,6 @@ export default function Item_comanda(){
                 </div>
             </div>
 
-        </div>
+            </section>
     )
 }

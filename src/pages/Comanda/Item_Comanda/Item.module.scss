@@ -11,6 +11,9 @@ $veganos: #80aa40;
   flex-direction: row;
   margin-top: 20px;
   margin-right: 50px;
+  @media (max-width: $mobile) {
+    margin-right: 0px;
+  }
   border-radius: 10px;
   width: 350px;
   height: 160px;

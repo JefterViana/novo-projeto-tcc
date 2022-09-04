@@ -9,7 +9,7 @@ $veganos: #80aa40;
 .item {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  min-width: 300px;
   background-color: #EFB41C;
   border-radius: 10px;
   &__imagem {
